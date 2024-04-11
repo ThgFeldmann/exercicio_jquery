@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    background-color: #9DB2BF;
+}
+
+header {
+    justify-content: center;
+    display: flex;
+    background-color: #27374D;
+    padding: 16px 0;
+}
+
+header h1 {
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #27374D;
+}
+
+header button {
+    margin-left: 32px;
+    border: none;
+    text-transform: uppercase;
+}
+
+button {
+    background-color: #DDE6ED;
+    color: black;
+}
+
+form {
+    text-align: center;
+    background-color: #526D82;
+    padding: 24px 0;
+    display: none;
+}
+
+form h2 {
+    color: #fff;
+    margin-bottom: 16px;
+    background-color: #526D82;
+}
+
+form input {
+    background-color: #DDE6ED;
+}
+
+form input, 
+form button {
+    padding: 8px 0;
+}
+
+ul {
+    padding: 16px 0;
+    display: none;
+}
+
+ul button {
+    margin-left: 8px;
+}
+
+li {
+    margin-bottom: 16px;
+    background-color: #9DB2BF;
+}
+
+.task-name {
+    font-size: large;
+    font-weight: bold;
+}
+
+.botao-cancelar {
+    background-color: red;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #9DB2BF;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.task-name.completed {
+    text-decoration: line-through;
+}
